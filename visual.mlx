@@ -1,0 +1,10 @@
+x = 0:0.1:10;
+
+v = exp(-x/5);
+w = sin(x);
+
+plot(x,v)
+hold on
+plot(x,w)
+
+
